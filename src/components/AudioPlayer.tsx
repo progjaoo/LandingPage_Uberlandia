@@ -85,9 +85,9 @@ const AudioPlayer = () => {
             <div className="mb-2 ml-3 text-center md:text-left">
               {isInvalido ? (
                 <>
-                  <h3 className="font-semibold text-foreground text-sm md:text-base">
-                    89.7 - Rádio Maravilha FM - Uberlândia
-                  </h3>
+                  <h2 className="font-semibold text-foreground text-sm md:text-base">
+                    Rádio Maravilha FM - Uberlândia
+                  </h2>
                   <p className="text-muted-foreground text-xs md:text-sm mt-1 leading-tight">
                     A Rádio de todas as igrejas<br />
                     que toca o som do céu
