@@ -72,14 +72,14 @@ const Video = () => {
         </div>
       </section>
 
-      <section className="bg-background py-12 md:py-16 px-4 flex-1">
+      {/* <section className="bg-background py-12 md:py-16 px-4 flex-1">
         <div className="container mx-auto max-w-3xl space-y-6 text-center">
           <p className="text-foreground text-base md:text-lg leading-relaxed">
             Acompanhe em tempo real tudo o que acontece no estúdio da Rádio 89.7 Maravilha FM. 
             Uma experiência única para você que ama nossa programação!
           </p>
         </div>
-      </section>
+      </section> */}
 
       <footer className="bg-primary py-8 px-4">
         <div className="container mx-auto max-w-4xl">
