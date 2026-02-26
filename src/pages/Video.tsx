@@ -9,7 +9,7 @@ const Video = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <section 
-        className="relative bg-primary py-12 md:py-20 px-4 overflow-hidden"
+        className="relative bg-primary py-3 md:py-3 px-3 overflow-hidden"
         style={{
           backgroundImage: `url(${bgDesktop})`,
           backgroundSize: 'cover',
@@ -52,17 +52,18 @@ const Video = () => {
             <div className="aspect-video w-full rounded-2xl overflow-hidden">
               <iframe 
                 className="w-full h-full"
-                src="https://player.srvstm.com/camera-studio/7076/VjFST1RtVkZlSFZVYm14clltczBkMWxzVFRGaGJVbDVUVVF3UFE9PStS/16:9/true" 
+                src="https://player.srvstm.com/camera-studio/7076/VjFST1RtVkZlSFZVYm14clltczBkMWxzVFRGaGJVbDVUVVF3UFE9PStS/16:9/true?autoplay=1" 
                 scrolling="no" 
                 frameBorder="0" 
                 allowFullScreen
+                allow="autoplay"
               />
             </div>
             
             <div className="mt-4 flex justify-center">
               <Link 
                 to="/"
-                className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105"
+                className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105"
               >
                 <Radio size={20} />
                 Ouvir Rádio
